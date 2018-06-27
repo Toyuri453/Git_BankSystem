@@ -20,6 +20,19 @@ int objnew; // Used in transfer funtion. Recording recieved account's deposit.
 int realaccount; //Used in data changing funciton.
 int recieveaccount; // Account which recieving transferd money;
 
+//////////////////////////////////////////////////////////////////////
+
+// adminpath links to a file that existing admin information.  
+// 
+//	Format:UserName:*your admin name
+//		   Password:*your admin password
+//
+//  Notice:NO SPACES IN BOTH LINE!
+
+// userpath inks to the file that storing the user's informations.
+// Keep it blank is fine.
+
+
 string adminpath = "D:\\Works\\C++\\bank\\banktest1\\admin.txt";
 string userinfopath = "D:\\Works\\C++\\bank\\registertet\\Userinfo.txt";
 
