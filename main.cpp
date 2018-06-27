@@ -40,12 +40,12 @@ char option[2];
 
 
 struct User_Info{
-	int account;				//账号
-	string name;				//姓名
-	string password;			//密码
-	long id;					//身份证
-	int balance = 0;				//余额
-	int isnormal = 0;				//状态
+	int account;				
+	string name;				
+	string password;			
+	long id;					
+	int balance = 0;				
+	int isnormal = 0;				
 };
 
 
@@ -270,15 +270,15 @@ public:
 		{
 			cout <<"Account state: Logged in" <<endl <<endl;
 			cout <<"_______MAIN MENU________" << endl << endl ;
-			cout <<"01. NEW ACCOUNT"<< endl << endl              //开户 1
-				 <<"02. CANLE AN ACCOUNT"<< endl<< endl          //销户 1
-				 <<"03. DEPOSIT"<< endl<< endl  				 //存款 1
-				 <<"04. WITHDRAW"<< endl<< endl  				 //取款 1
-				 <<"05. QUERY"<< endl<< endl  					 //查询 1
-				 <<"06. TRANSFER"<< endl<< endl  				 //转账
-				 <<"07. LOSS REGISTRATION"<< endl<< endl  		 //挂失 1
-				 <<"08. HANGING SOLUTION"<< endl<< endl  		 //解挂 1
-				 <<"09. CHANGE PASSWORD"<< endl<< endl  		 //改密
+			cout <<"01. NEW ACCOUNT"<< endl << endl              
+				 <<"02. CANLE AN ACCOUNT"<< endl<< endl          
+				 <<"03. DEPOSIT"<< endl<< endl  				 
+				 <<"04. WITHDRAW"<< endl<< endl  				 
+				 <<"05. QUERY"<< endl<< endl  					 
+				 <<"06. TRANSFER"<< endl<< endl  				 
+				 <<"07. LOSS REGISTRATION"<< endl<< endl  		 
+				 <<"08. HANGING SOLUTION"<< endl<< endl  		 
+				 <<"09. CHANGE PASSWORD"<< endl<< endl  		 
 				 <<"00. EXIT"<<endl  ;
 			
 			do{
